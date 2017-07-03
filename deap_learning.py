@@ -1,9 +1,10 @@
 from deap import base, creator, gp
+import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import multiprocessing
 import pickle
 import numpy
-
 ### Graphviz Section ###
 
 from deap import algorithms
